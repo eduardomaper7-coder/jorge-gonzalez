@@ -77,9 +77,9 @@ const AllTreatments = () => {
           </h1>
 
           <p className="mt-5 text-lg leading-8 text-neutral-700">
-            Consulta algunos de los tratamientos más habituales de IMAGEN DENTAL
-            PABLO NERUDA. Para recibir una valoración personalizada, contacta
-            con nuestra clínica dental en Puente de Vallecas.
+            Consulta algunos de los tratamientos más habituales de Clínica
+            Dental Dr. Jorge Gonzalez Cogollo. Para recibir una valoración
+            personalizada, contacta con nuestra clínica dental en Carabanchel.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ const AllTreatments = () => {
               <div className="h-48 overflow-hidden">
                 <img
                   src={treatment.image}
-                  alt={`${treatment.name} en Puente de Vallecas - IMAGEN DENTAL PABLO NERUDA`}
+                  alt={`${treatment.name} en Carabanchel - Clínica Dental Dr. Jorge Gonzalez Cogollo`}
                   className="h-full w-full object-cover transition duration-500 hover:scale-105"
                   loading="lazy"
                 />
@@ -138,10 +138,10 @@ const AllTreatments = () => {
             no dudes en consultar con nuestro equipo. Te atenderemos personalmente
             en nuestra clínica o llamando al{' '}
             <a
-              href="tel:917789339"
+              href="tel:686142747"
               className="inline-block whitespace-nowrap font-extrabold text-blue-700 hover:underline"
             >
-              917 78 93 39
+              686 14 27 47
             </a>
             .
           </p>
@@ -155,7 +155,7 @@ const AllTreatments = () => {
             </a>
 
             <a
-              href="tel:917789339"
+              href="tel:686142747"
               className="rounded-xl border-2 border-blue-700 px-8 py-4 text-lg font-bold text-blue-700 transition hover:bg-blue-700 hover:text-white"
             >
               Llamar ahora

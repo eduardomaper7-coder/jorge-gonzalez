@@ -10,7 +10,8 @@ const ContactSection = () => {
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-neutral-600">
-            Estamos aquí para ayudarte. Contacta con IMAGEN DENTAL PABLO NERUDA para reservar tu cita.
+            Estamos aquí para ayudarte. Contacta con Clínica Dental Dr. Jorge
+            Gonzalez Cogollo para reservar tu cita.
           </p>
         </div>
 
@@ -24,8 +25,9 @@ const ContactSection = () => {
 
             <div>
               <h3 className="text-xl font-bold text-blue-700">Dirección</h3>
+
               <p className="mt-2 text-lg text-neutral-600">
-                Av. de Pablo Neruda, 114, Puente de Vallecas, 28018 Madrid
+                C. de Carrero Juan Ramón, 7, Local, Carabanchel, 28025 Madrid
               </p>
             </div>
           </div>
@@ -38,28 +40,34 @@ const ContactSection = () => {
 
             <div>
               <h3 className="text-xl font-bold text-blue-700">Teléfono</h3>
+
               <a
-                href="tel:917789339"
+                href="tel:686142747"
                 className="mt-2 block whitespace-nowrap text-lg text-neutral-600 transition hover:text-blue-700"
               >
-                917 78 93 39
+                686 14 27 47
               </a>
             </div>
           </div>
 
-          {/* Email */}
+          {/* WhatsApp */}
           <div className="flex gap-5 rounded-xl bg-white px-6 py-6 shadow-[0_10px_30px_rgba(37,99,235,0.08)]">
             <div className="pt-1 text-xl text-blue-700">
               <FaEnvelope />
             </div>
 
             <div>
-              <h3 className="text-xl font-bold text-blue-700">Email</h3>
+              <h3 className="text-xl font-bold text-blue-700">
+                WhatsApp
+              </h3>
+
               <a
-                href="mailto:info@imagendentalpabloneruda.com"
+                href="https://wa.me/34686142747"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-2 block text-lg text-neutral-600 transition hover:text-blue-700"
               >
-                info@imagendentalpabloneruda.com
+                Contactar por WhatsApp
               </a>
             </div>
           </div>
@@ -75,19 +83,22 @@ const ContactSection = () => {
 
               <div className="mt-4 space-y-4 text-base text-neutral-700 sm:text-lg">
                 {[
-                  ['Lunes', '9:30–20:00'],
-                  ['Martes', '9:30–20:00'],
-                  ['Miércoles', '9:00–14:00'],
-                  ['Jueves', '9:30–20:00'],
-                  ['Viernes', '9:00–13:00'],
-                  ['Sábado', 'Cerrado'],
+                  ['Lunes', '10:00–14:00 · 16:00–20:00'],
+                  ['Martes', '10:00–14:00 · 16:00–20:00'],
+                  ['Miércoles', '10:00–14:00 · 16:00–20:00'],
+                  ['Jueves', '10:00–14:00 · 16:00–20:00'],
+                  ['Viernes', '10:00–14:00 · 16:00–20:00'],
+                  ['Sábado', '10:00–14:00'],
                   ['Domingo', 'Cerrado'],
                 ].map(([day, hours]) => (
                   <div
                     key={day}
                     className="flex flex-col border-b border-blue-100 pb-3 last:border-b-0 last:pb-0 sm:flex-row sm:items-center sm:justify-between sm:gap-6"
                   >
-                    <span className="font-semibold text-blue-700">{day}</span>
+                    <span className="font-semibold text-blue-700">
+                      {day}
+                    </span>
+
                     <span className="mt-1 leading-7 text-neutral-700 sm:mt-0 sm:text-right">
                       {hours}
                     </span>

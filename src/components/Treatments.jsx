@@ -37,13 +37,13 @@ const Treatments = () => {
           </span>
 
           <h2 className="mt-3 text-3xl font-extrabold text-blue-700 sm:text-4xl">
-            Servicios dentales en Puente de Vallecas
+            Servicios dentales en Carabanchel
           </h2>
 
           <p className="mx-auto mt-4 max-w-3xl text-lg text-neutral-600 sm:text-xl">
-            En IMAGEN DENTAL PABLO NERUDA ofrecemos tratamientos dentales
-            personalizados para cuidar tu salud bucodental con atención cercana
-            y profesional en Puente de Vallecas.
+            En Clínica Dental Dr. Jorge Gonzalez Cogollo ofrecemos tratamientos
+            dentales personalizados para cuidar tu salud bucodental con atención
+            cercana y profesional en Carabanchel, Madrid.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const Treatments = () => {
               <div className="h-56 w-full sm:h-auto sm:w-[40%]">
                 <img
                   src={service.image}
-                  alt={`${service.title} en Puente de Vallecas - IMAGEN DENTAL PABLO NERUDA`}
+                  alt={`${service.title} en Carabanchel - Clínica Dental Dr. Jorge Gonzalez Cogollo`}
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />

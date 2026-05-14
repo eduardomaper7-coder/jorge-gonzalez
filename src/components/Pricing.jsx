@@ -30,7 +30,7 @@ const conditions = [
   'Cada tratamiento requiere una valoración previa personalizada.',
   'El presupuesto final puede variar según las necesidades de cada paciente.',
   'Antes de comenzar, te explicaremos el tratamiento, las opciones disponibles y el precio final.',
-  'Consulta con IMAGEN DENTAL PABLO NERUDA para conocer más tratamientos y tarifas.',
+  'Consulta con Clínica Dental Dr. Jorge Gonzalez Cogollo para conocer más tratamientos y tarifas.',
 ]
 
 const Pricing = () => {
@@ -47,9 +47,9 @@ const Pricing = () => {
           </h2>
 
           <p className="mt-4 text-lg leading-8 text-neutral-600">
-            En IMAGEN DENTAL PABLO NERUDA queremos que tengas una referencia
-            clara antes de venir. Estos precios son orientativos y pueden variar
-            según cada caso.
+            En Clínica Dental Dr. Jorge Gonzalez Cogollo queremos que tengas una
+            referencia clara antes de venir. Estos precios son orientativos y
+            pueden variar según cada caso.
           </p>
         </div>
 
@@ -91,6 +91,7 @@ const Pricing = () => {
                 <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700">
                   ✓
                 </span>
+
                 <p className="text-base leading-7 text-neutral-700">
                   {condition}
                 </p>

@@ -8,7 +8,7 @@ const FeaturedBox = () => {
           <div className="h-[260px] w-full lg:h-[520px] lg:w-[62%]">
             <img
               src="/clinica-dental.jpg"
-              alt="IMAGEN DENTAL PABLO NERUDA en Puente de Vallecas"
+              alt="Clínica Dental Dr. Jorge Gonzalez Cogollo en Carabanchel"
               className="h-full w-full object-cover"
             />
           </div>
@@ -23,18 +23,18 @@ const FeaturedBox = () => {
               </h2>
 
               <p className="mt-4 text-sm leading-7 text-neutral-600 sm:text-lg">
-                En IMAGEN DENTAL PABLO NERUDA estudiamos tu caso de forma
-                individual para ofrecerte tratamientos dentales adaptados a tus
-                necesidades, cuidando tu salud bucodental y la estética de tu sonrisa
-                en Puente de Vallecas.
+                En Clínica Dental Dr. Jorge Gonzalez Cogollo estudiamos tu caso
+                de forma individual para ofrecerte tratamientos dentales
+                adaptados a tus necesidades, cuidando tu salud bucodental y la
+                estética de tu sonrisa en Carabanchel, Madrid.
               </p>
 
               <div className="mt-6">
                 <a
-                  href="tel:917789339"
+                  href="tel:686142747"
                   className="inline-flex rounded-xl bg-blue-700 px-6 py-3 text-sm font-bold text-white transition hover:bg-blue-800 sm:px-7 sm:py-4 sm:text-base"
                 >
-                  Pide cita llamando al 917 78 93 39
+                  Pide cita llamando al 686 14 27 47
                 </a>
               </div>
 

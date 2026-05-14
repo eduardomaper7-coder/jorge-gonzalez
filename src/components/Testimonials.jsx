@@ -1,16 +1,16 @@
 const reviews = [
   {
-    text: 'Clínica de confianza en Vallecas. El trato es cercano y profesional, me explicaron todo perfectamente y el resultado ha sido excelente.',
+    text: 'Excelente atención y gran profesionalidad. Me explicaron todo el tratamiento con claridad y el resultado ha sido perfecto.',
     name: 'María G.',
     time: 'Hace 3 meses',
   },
   {
-    text: 'Muy buenos profesionales. Fui por una urgencia y me atendieron rápido y sin dolor. Totalmente recomendable en la zona de Pablo Neruda.',
+    text: 'Fui por una urgencia dental y me atendieron muy rápido. Trato cercano, sin dolor y con mucha confianza. Muy recomendable en Carabanchel.',
     name: 'Carlos R.',
     time: 'Hace 6 meses',
   },
   {
-    text: 'Llevo tiempo viniendo y siempre salgo contenta. Clínica limpia, moderna y con muy buena atención al paciente.',
+    text: 'Clínica moderna y muy limpia. Llevo tiempo viniendo y siempre recibo una atención excelente por parte del equipo.',
     name: 'Laura M.',
     time: 'Hace 1 mes',
   },
@@ -30,7 +30,7 @@ const Testimonials = () => {
           </div>
 
           <p className="mt-4 text-lg text-neutral-600">
-            Pacientes satisfechos en Puente de Vallecas
+            Pacientes satisfechos en Carabanchel, Madrid
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const Testimonials = () => {
           {reviews.map((review, index) => (
             <article
               key={index}
-              className="flex min-h-[340px] flex-col rounded-xl bg-white p-6 shadow-[0_8px_24px_rgba(0,0,0,0.08)] sm:min-h-[360px] sm:p-7 transition hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)]"
+              className="flex min-h-[340px] flex-col rounded-xl bg-white p-6 shadow-[0_8px_24px_rgba(0,0,0,0.08)] transition hover:-translate-y-1 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)] sm:min-h-[360px] sm:p-7"
             >
               <div className="mb-5 text-lg tracking-[0.18em] text-yellow-400 sm:text-xl">
                 ★★★★★
@@ -52,6 +52,7 @@ const Testimonials = () => {
                 <p className="text-lg font-bold text-black sm:text-xl">
                   {review.name}
                 </p>
+
                 <p className="mt-1 text-sm text-neutral-500">
                   {review.time}
                 </p>

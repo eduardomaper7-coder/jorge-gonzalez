@@ -11,17 +11,17 @@ const Footer = () => {
           <div>
             <div className="mb-6 leading-tight">
               <span className="block text-2xl font-extrabold text-white">
-                IMAGEN DENTAL
+                CLÍNICA DENTAL
               </span>
-              <span className="block text-blue-600 text-lg font-semibold">
-                Pablo Neruda
+              <span className="block text-lg font-semibold text-blue-600">
+                Dr. Jorge Gonzalez Cogollo
               </span>
             </div>
 
             <p className="max-w-2xl text-lg leading-relaxed text-white/90">
-              Clínica dental en Puente de Vallecas. Especialistas en tratamientos 
-              personalizados para cuidar tu salud bucodental y mejorar tu sonrisa 
-              con atención cercana y profesional.
+              Clínica dental en Carabanchel, Madrid. Especialistas en
+              tratamientos personalizados para cuidar tu salud bucodental y
+              mejorar tu sonrisa con atención cercana y profesional.
             </p>
 
             <div className="mt-8 flex items-center gap-5">
@@ -43,25 +43,27 @@ const Footer = () => {
 
             <div className="mt-6 space-y-4 text-lg leading-relaxed">
               <p>
-                Av. de Pablo Neruda, 114<br />
-                Puente de Vallecas, 28018 Madrid
+                C. de Carrero Juan Ramón, 7, Local<br />
+                Carabanchel, 28025 Madrid
               </p>
 
               <p>
                 <a
-                  href="tel:917789339"
+                  href="tel:686142747"
                   className="whitespace-nowrap font-bold text-white transition hover:text-blue-600"
                 >
-                  917 78 93 39
+                  686 14 27 47
                 </a>
               </p>
 
               <p>
                 <a
-                  href="mailto:info@imagendentalpabloneruda.com"
+                  href="https://wa.me/34686142747"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-blue-600 transition hover:text-white"
                 >
-                  info@imagendentalpabloneruda.com
+                  Pedir cita por WhatsApp
                 </a>
               </p>
             </div>
@@ -85,7 +87,7 @@ const Footer = () => {
         {/* Footer bottom */}
         <div className="mt-12 border-t border-white/15 pt-8 text-center">
           <p className="text-base text-white/80">
-            © 2026 IMAGEN DENTAL PABLO NERUDA. Todos los derechos reservados.
+            © 2026 Clínica Dental Dr. Jorge Gonzalez Cogollo. Todos los derechos reservados.
           </p>
 
           <div className="mt-5 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-blue-600">
