@@ -84,13 +84,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="mt-5 max-w-3xl rounded-2xl bg-white/95 px-5 py-4 text-sm font-semibold leading-7 text-blue-800 shadow-xl sm:text-base">
-          <p>C. de Carrero Juan Ramón, 7, Local, Carabanchel, 28025 Madrid</p>
-          <p>
-            Lunes a viernes: 10:00–14:00 y 16:00–20:00 · Sábado: 10:00–14:00 ·
-            Domingo: Cerrado
-          </p>
-        </div>
+       
 
         <a
           href="#servicios"
