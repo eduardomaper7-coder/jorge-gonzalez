@@ -1,18 +1,21 @@
 const Hero = () => {
   const whatsappNumber = '34686142747'
+
   const whatsappMessage = encodeURIComponent(
     'Hola, quiero pedir cita en Clínica Dental Dr. Jorge Gonzalez Cogollo.'
   )
+
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
 
-  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768
+  const isMobile =
+    typeof window !== 'undefined' && window.innerWidth < 768
 
   return (
     <section
       id="inicio"
       className="relative flex min-h-screen items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: "url('/hero-dentista-usera.png')",
+        backgroundImage: "url('/hero-dentista-usera.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -20,35 +23,38 @@ const Hero = () => {
       }}
     >
       <div className="absolute inset-0 bg-blue-950/45"></div>
+
       <div className="absolute inset-0 bg-gradient-to-b from-blue-600/20 via-blue-800/35 to-blue-950/80"></div>
 
-      <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center px-4 pb-12 pt-24 text-center sm:pb-16 sm:pt-28">
-        <div className="mb-4 flex max-w-full flex-col items-center sm:mb-6">
-          <span className="max-w-full break-words text-sm font-light tracking-[0.18em] text-white/80 sm:text-2xl">
+      <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center justify-center px-6 pb-16 pt-28 text-center">
+        {/* BLOQUE CENTRADO */}
+        <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
+          <span className="text-sm font-light tracking-[0.18em] text-white/80 sm:text-2xl">
             CLÍNICA DENTAL EN CARABANCHEL
           </span>
 
-          <span className="mt-1 max-w-full break-words text-xl font-extrabold tracking-wide text-white sm:text-3xl md:text-4xl">
+          <span className="mt-3 text-xl font-extrabold leading-tight text-white sm:text-3xl md:text-4xl">
             CLÍNICA DENTAL DR. JORGE GONZALEZ COGOLLO
           </span>
+
+          <h1 className="mt-8 text-center text-[2.2rem] font-extrabold leading-[1.05] text-white sm:text-5xl md:text-6xl lg:text-[4.8rem]">
+            <span className="block">
+              Dentista en Carabanchel
+            </span>
+
+            <span className="mt-2 block">
+              para cuidar tu sonrisa
+            </span>
+          </h1>
         </div>
 
-        <h1 className="mx-auto max-w-full text-center text-[2.15rem] font-extrabold leading-tight text-white sm:w-fit sm:-translate-x-16 sm:text-5xl md:text-6xl lg:text-[4.8rem]">
-          <span className="block sm:whitespace-nowrap">
-            Dentista en Carabanchel
-          </span>
-          <span className="block sm:whitespace-nowrap">
-            para cuidar tu sonrisa
-          </span>
-        </h1>
-
-        <p className="mt-6 hidden max-w-3xl text-lg leading-9 text-white/90 sm:block sm:text-xl">
+        <p className="mt-8 hidden max-w-4xl text-lg leading-9 text-white/90 sm:block sm:text-xl">
           En Clínica Dental Dr. Jorge Gonzalez Cogollo cuidamos tu salud
           bucodental con una atención cercana, tratamientos personalizados y un
           equipo comprometido con tu bienestar dental en Carabanchel, Madrid.
         </p>
 
-        <div className="mt-6 flex w-full max-w-full flex-col gap-2 sm:mt-8 sm:w-auto sm:flex-row sm:gap-3">
+        <div className="mt-6 flex w-full max-w-full flex-col gap-2 sm:mt-8 sm:w-auto sm:flex-row sm:justify-center sm:gap-3">
           <span className="w-full break-words rounded-full bg-white/95 px-4 py-2 text-sm font-bold text-blue-700 shadow-lg sm:w-auto sm:px-6 sm:py-3 sm:text-base">
             Clínica dental en Carabanchel
           </span>
@@ -58,7 +64,7 @@ const Hero = () => {
           </span>
         </div>
 
-        <div className="mt-8 flex w-full max-w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row">
+        <div className="mt-8 flex w-full max-w-full flex-col gap-3 sm:mt-10 sm:w-auto sm:flex-row sm:justify-center">
           <a
             href={whatsappUrl}
             target="_blank"
@@ -72,7 +78,10 @@ const Hero = () => {
               className="h-6 w-6 shrink-0 sm:h-7 sm:w-7"
               aria-hidden="true"
             />
-            <span className="min-w-0 break-words">Pedir cita por WhatsApp</span>
+
+            <span className="min-w-0 break-words">
+              Pedir cita por WhatsApp
+            </span>
           </a>
 
           <a
@@ -83,8 +92,6 @@ const Hero = () => {
             Llamar ahora
           </a>
         </div>
-
-       
 
         <a
           href="#servicios"
@@ -98,6 +105,7 @@ const Hero = () => {
           className="mt-12 hidden flex-col items-center text-base font-medium text-white sm:inline-flex"
         >
           Descubre más
+
           <span className="mt-2 text-2xl">⌄</span>
         </a>
       </div>

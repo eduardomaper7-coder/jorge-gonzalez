@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react'
 
 const slides = [
   {
-    image: '/clinica-dental-usera-interior.jpeg',
+    image: '/clinica-dental-usera-interior.jpg',
     alt: 'Interior de Clínica Dental Dr. Jorge Gonzalez Cogollo en Carabanchel',
     badge: 'Clínica dental en Carabanchel con atención cercana y profesional',
   },
   {
-    image: '/dra-anna-tavarone-clinica-dental-usera.png',
+    image: '/dra-anna-tavarone-clinica-dental-usera.webp',
     alt: 'Clínica Dental Dr. Jorge Gonzalez Cogollo en Carabanchel',
     badge: 'Cuidamos tu sonrisa en C. de Carrero Juan Ramón',
   },
