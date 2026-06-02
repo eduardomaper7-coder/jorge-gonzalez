@@ -2,28 +2,28 @@ import { Link } from 'react-router-dom'
 
 const services = [
   {
-    title: 'Fundas de porcelana y zirconio',
+    title: 'Implantología',
     description:
-      'Soluciones estéticas y funcionales para proteger dientes debilitados, mejorar la mordida y recuperar una sonrisa natural.',
-    image: '/funda-porcelana-siliconio-usera.jpg',
-  },
-  {
-    title: 'Tratamiento de encías',
-    description:
-      'Diagnóstico y tratamiento de problemas periodontales para cuidar tus encías, prevenir molestias y conservar tus dientes.',
-    image: '/tratamiento-encias-usera.webp',
-  },
-  {
-    title: 'Implantes dentales',
-    description:
-      'Recupera piezas dentales perdidas con soluciones seguras, estables y pensadas para mejorar la masticación y la estética.',
+      'Recupera dientes perdidos con soluciones fijas, seguras y duraderas que mejoran la función y la estética de tu sonrisa.',
     image: '/implantes-dentales-usera.jpg',
   },
   {
-    title: 'Endodoncia',
+    title: 'Ortodoncia',
     description:
-      'Tratamiento para salvar dientes dañados o infectados, aliviar el dolor y evitar la extracción cuando es posible.',
+      'Corrige la posición dental y mejora tu sonrisa con tratamientos adaptados a niños, adolescentes y adultos.',
+    image: '/tratamiento-encias-usera.webp',
+  },
+  {
+    title: 'Estética dental',
+    description:
+      'Mejora la apariencia de tu sonrisa mediante tratamientos como carillas, blanqueamiento dental y diseño de sonrisa.',
     image: '/endodoncia-usera.png',
+  },
+  {
+    title: 'Prótesis fija',
+    description:
+      'Recupera la funcionalidad y la estética dental con prótesis fijas diseñadas para ofrecer comodidad y naturalidad.',
+    image: '/funda-porcelana-siliconio-usera.jpg',
   },
 ]
 

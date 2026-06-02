@@ -3,71 +3,58 @@ import { useLocation } from 'react-router-dom'
 
 const treatments = [
   {
-    name: 'Implantes + corona',
-    price: '1.500 €',
+    name: 'Implantología',
     image:
       'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Endodoncia',
-    price: '220 €',
+    name: 'Cirugía oral',
     image:
       'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Fundas porcelana',
-    price: '240 €',
+    name: 'Ortodoncia',
     image:
       'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Fundas zirconio',
-    price: '420 €',
+    name: 'Prótesis fija',
     image: '/fundas-zirconio-usera.jpg',
   },
   {
-    name: 'Frenillo de lengua',
-    price: '400 €',
+    name: 'Estética dental',
     image:
       'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Tratamiento encías',
-    price: '400 €',
+    name: 'Endodoncia',
     image: '/tratamiento-encias-usera.jpg',
-    note: 'Raspajes',
   },
   {
-    name: 'Blanqueamiento',
-    price: '350 €',
+    name: 'Rehabilitación oral',
     image: '/blanqueamiento-dental-usera.jpg',
   },
   {
-    name: 'Prótesis total',
-    price: '950 €',
+    name: 'Periodoncia',
     image: '/protesis-total-usera.jpg',
   },
   {
-    name: 'Limpieza',
-    price: '70 €',
+    name: 'Prótesis removible',
     image:
       'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Empastes',
-    price: '80 €',
+    name: 'Odontología general',
     image: '/empastes-usera.jfif',
   },
   {
-    name: 'Cirugía',
-    price: '180 €',
-    image: '/cirugia-dental-usera.jpg',
-    note: 'Injerto incluido',
+    name: 'Blanqueamiento dental',
+    image: '/blanqueamiento-dental-usera.jpg',
   },
   {
-    name: 'Exodoncia',
-    price: '70 €',
-    image: '/exodoncia-usera.webp',
+    name: 'Carillas dentales',
+    image:
+      'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80',
   },
 ]
 
