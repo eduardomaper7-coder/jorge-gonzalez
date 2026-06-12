@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
 
             <p className="max-w-2xl text-lg leading-relaxed text-white/90">
-              Clínica dental en Carabanchel, Madrid. Especialistas en
+              Clínica dental en Madrid. Especialistas en
               tratamientos personalizados para cuidar tu salud bucodental y
               mejorar tu sonrisa con atención cercana y profesional.
             </p>

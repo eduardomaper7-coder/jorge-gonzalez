@@ -26,7 +26,7 @@ const FeaturedBox = () => {
                 En Clínica Dental Dr. Jorge Gonzalez Cogollo estudiamos tu caso
                 de forma individual para ofrecerte tratamientos dentales
                 adaptados a tus necesidades, cuidando tu salud bucodental y la
-                estética de tu sonrisa en Carabanchel, Madrid.
+                estética de tu sonrisa.
               </p>
 
               <div className="mt-6">

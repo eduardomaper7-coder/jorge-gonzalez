@@ -7,30 +7,24 @@ const Hero = () => {
 
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
 
-  const isMobile =
-    typeof window !== 'undefined' && window.innerWidth < 768
-
   return (
     <section
       id="inicio"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-fixed max-md:bg-scroll"
       style={{
         backgroundImage: "url('/hero-dentista-usera.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundAttachment: isMobile ? 'scroll' : 'fixed',
       }}
     >
       <div className="absolute inset-0 bg-blue-950/45"></div>
-
       <div className="absolute inset-0 bg-gradient-to-b from-blue-600/20 via-blue-800/35 to-blue-950/80"></div>
 
       <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center justify-center px-6 pb-16 pt-28 text-center">
-        {/* BLOQUE CENTRADO */}
         <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
           <span className="text-sm font-light tracking-[0.18em] text-white/80 sm:text-2xl">
-            CLÍNICA DENTAL EN CARABANCHEL
+            CLÍNICA DENTAL EN MADRID
           </span>
 
           <span className="mt-3 text-xl font-extrabold leading-tight text-white sm:text-3xl md:text-4xl">
@@ -38,25 +32,20 @@ const Hero = () => {
           </span>
 
           <h1 className="mt-8 text-center text-[2.2rem] font-extrabold leading-[1.05] text-white sm:text-5xl md:text-6xl lg:text-[4.8rem]">
-            <span className="block">
-              Dentista en Carabanchel
-            </span>
-
-            <span className="mt-2 block">
-              para cuidar tu sonrisa
-            </span>
+            <span className="block">Dentista de confianza</span>
+            <span className="mt-2 block">para cuidar tu sonrisa</span>
           </h1>
         </div>
 
         <p className="mt-8 hidden max-w-4xl text-lg leading-9 text-white/90 sm:block sm:text-xl">
           En Clínica Dental Dr. Jorge Gonzalez Cogollo cuidamos tu salud
           bucodental con una atención cercana, tratamientos personalizados y un
-          equipo comprometido con tu bienestar dental en Carabanchel, Madrid.
+          equipo comprometido con tu bienestar dental en Madrid.
         </p>
 
         <div className="mt-6 flex w-full max-w-full flex-col gap-2 sm:mt-8 sm:w-auto sm:flex-row sm:justify-center sm:gap-3">
           <span className="w-full break-words rounded-full bg-white/95 px-4 py-2 text-sm font-bold text-blue-700 shadow-lg sm:w-auto sm:px-6 sm:py-3 sm:text-base">
-            Clínica dental en Carabanchel
+            Clínica dental en Madrid
           </span>
 
           <span className="w-full break-words rounded-full bg-white/95 px-4 py-2 text-sm font-bold text-blue-700 shadow-lg sm:w-auto sm:px-6 sm:py-3 sm:text-base">
@@ -85,7 +74,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="tel:686142747"
+            href="tel:912833004"
             className="flex w-full min-w-0 items-center justify-center rounded-xl bg-white/95 px-4 py-4 text-sm font-extrabold text-blue-700 shadow-xl transition hover:bg-white sm:w-auto sm:px-8 sm:text-lg sm:whitespace-nowrap"
             aria-label="Llamar a Clínica Dental Dr. Jorge Gonzalez Cogollo"
           >
@@ -105,7 +94,6 @@ const Hero = () => {
           className="mt-12 hidden flex-col items-center text-base font-medium text-white sm:inline-flex"
         >
           Descubre más
-
           <span className="mt-2 text-2xl">⌄</span>
         </a>
       </div>

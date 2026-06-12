@@ -37,13 +37,13 @@ const Treatments = () => {
           </span>
 
           <h2 className="mt-3 text-3xl font-extrabold text-blue-700 sm:text-4xl">
-            Servicios dentales en Carabanchel
+            Servicios dentales más destacados
           </h2>
 
           <p className="mx-auto mt-4 max-w-3xl text-lg text-neutral-600 sm:text-xl">
             En Clínica Dental Dr. Jorge Gonzalez Cogollo ofrecemos tratamientos
             dentales personalizados para cuidar tu salud bucodental con atención
-            cercana y profesional en Carabanchel, Madrid.
+            cercana y profesional.
           </p>
         </div>
 

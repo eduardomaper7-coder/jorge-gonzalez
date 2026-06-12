@@ -4,7 +4,7 @@ const features = [
   {
     icon: <FaStethoscope />,
     title: 'Valoración y diagnóstico personalizado',
-    text: 'Analizamos tu salud bucodental en detalle para ofrecerte el tratamiento más adecuado en nuestra clínica dental de Carabanchel.',
+    text: 'Analizamos tu salud bucodental en detalle para ofrecerte el tratamiento más adecuado.',
   },
   {
     icon: <FaMagic />,

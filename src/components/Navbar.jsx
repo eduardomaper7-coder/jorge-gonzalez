@@ -65,11 +65,11 @@ const Navbar = () => {
           </nav>
 
           <a
-            href="tel:686142747"
-            className="whitespace-nowrap rounded-lg bg-blue-600 px-3 py-2 text-xs font-bold text-white transition hover:bg-blue-700 md:px-5 md:py-2.5 md:text-sm"
-          >
-            📞 <span className="hidden md:inline">Llama al</span> 686 14 27 47
-          </a>
+  href="tel:912833004"
+  className="whitespace-nowrap rounded-lg bg-blue-600 px-3 py-2 text-xs font-bold text-white transition hover:bg-blue-700 md:px-5 md:py-2.5 md:text-sm"
+>
+  📞 <span className="hidden md:inline">Llama al</span> 912 83 30 04
+</a>
         </div>
       </header>
     </>
