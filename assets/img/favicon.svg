@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800"
+   height="800"
+   viewBox="0 0 64 64"
+   aria-hidden="true"
+   role="img"
+   class="iconify iconify--medical-icon"
+   preserveAspectRatio="xMidYMid"
+   version="2.0"
+   id="svg1"
+   sodipodi:docname="dental-svgrepo-com.svg"
+   inkscape:export-filename="favicon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   standalone="no"
+   inkscape:version="1.5-dev (1fd5aba88c, 2026-06-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <view
+       viewBox="0 0 64 64"
+       id="view2"
+       inkscape:margin="0"
+       inkscape:bleed="0" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false" />
+  <path
+     d="M 55.455,0.339 H 8.67 c -4.585,0 -8.314,3.73 -8.314,8.316 v 46.781 c 0,4.587 3.73,8.316 8.314,8.316 h 46.785 c 4.583,0 8.314,-3.729 8.314,-8.316 V 8.655 c 0,-4.586 -3.731,-8.316 -8.314,-8.316 z M 44.667,32.394 c -0.397,2.565 0.411,5.439 -0.352,11.216 -0.791,5.835 -2.162,10.955 -4.83,10.955 -3.155,0 -2.732,-5.823 -2.364,-10.561 0.108,-1.426 0.188,-2.658 0.112,-3.502 -0.32,-3.53 -1.839,-6.016 -5.114,-6.016 -3.256,0 -4.796,2.486 -5.115,6.016 -0.076,0.845 0.004,2.077 0.112,3.502 0.368,4.738 0.789,10.561 -2.364,10.561 -2.668,0 -4.039,-5.119 -4.83,-10.955 -0.764,-5.777 0.045,-8.651 -0.353,-11.216 -0.76,-4.86 -5.001,-9.217 -3.692,-15.414 0.727,-3.437 2.62,-5.054 4.493,-5.734 4.321,-1.572 7.11,1.457 11.747,1.457 4.638,0 7.427,-3.029 11.746,-1.457 1.875,0.679 3.767,2.296 4.493,5.734 1.311,6.197 -2.932,10.554 -3.691,15.414 z"
+     fill="#000000"
+     id="path1"
+     style="fill:#1262e3;fill-opacity:1" />
+</svg>
